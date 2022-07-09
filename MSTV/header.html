@@ -21,11 +21,11 @@ body{
 var menuDown = false;
 function menu(){
   if(menuDown){
-  document.getElementById("nav").style.maxHeight="0";
+  document.getElementById("header").style.maxHeight="50px";
   document.getElementById("hamburgerFA").className="fa-solid fa-bars"
   }
   else{
-    document.getElementById("nav").style.maxHeight="100px";
+    document.getElementById("header").style.maxHeight="300px";
 document.getElementById("hamburgerFA").className="fa-solid fa-x"
 
   }
@@ -48,10 +48,11 @@ document.getElementById("hamburgerFA").className="fa-solid fa-x"
   <a class=lButton href="on-demand">On Demand</a>
   <a class=lButton href="advertise">Advertise With Us</a>
   <a class=lButton href="about">About</a>
-  <div id=divider></div>
+  <div id=socials>
   <a class=lButton href="https://rokfin.com/MetroSportsTV"><i class="fa-regular fa-circle-play"></i></a>
   <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-twitter"></i></a>
   <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-facebook"></i></a>
+</div>
 
 
 

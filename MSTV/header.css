@@ -7,7 +7,7 @@
   font-size: 0px;
 }
 
-  @media screen and (min-width: 1111px){
+  @media screen and (min-width: 1112px){
     #header{
       height: 100px;
     }
@@ -28,6 +28,7 @@
     }
 
     #nav a{
+      height: 100px;
       display: flex;
       align-items: center;
       padding-left: 15px;
@@ -38,10 +39,14 @@
     }
 
 
-    #divider{
-      background-color: #17478e;
-      width: 4px;
-      height: 100px;
+    #socials{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      font-size: 24px;
+border-left-style: solid;
+    border-color: #17478e;
+    border-width: 4px;
     }
 
 
@@ -49,7 +54,9 @@
 
   @media screen and (max-width: 1111px){
     #header{
-      height: 50px;
+      max-height: 50px;
+      overflow:hidden;
+     transition: max-height 0.5s ease;
     }
     #header img{
       padding: 5px;
@@ -71,9 +78,27 @@
 
 #nav{
   display:block;
-  height:auto;
-  max-height: 0px;
-  overflow:hidden;
- transition: max-height 0.5s ease;
+  border-top-style: solid;
+      border-color: #17478e;
+      border-width: 4px;
 }
+
+#nav a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  text-align: center;
+  font-size: 30px;
+  padding:5px;
+}
+
+#socials{
+  display: flex;
+  align-items: center;
+  border-top-style: solid;
+      border-color: #17478e;
+      border-width: 4px;
+}
+
   }
