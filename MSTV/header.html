@@ -7,16 +7,56 @@
     <meta name=author content="Sam Newitt">
   <meta name=viewport content="width=device-width, initial-scale=1.0">
     <title>#MSTV HEADER#</title>
-    <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel=stylesheet href="/mstv.css">
+  <link rel=stylesheet href="mstv.css">
+  <link rel=stylesheet href="header.css">
+<script src="https://kit.fontawesome.com/9ac7060263.js" crossorigin="anonymous"></script>
 
+<style>
+body{
+  background-color: #000;
+}
+</style>
 
+<script>
+var menuDown = false;
+function menu(){
+  if(menuDown){
+  document.getElementById("nav").style.maxHeight="0";
+  document.getElementById("hamburgerFA").className="fa-solid fa-bars"
+  }
+  else{
+    document.getElementById("nav").style.maxHeight="100px";
+document.getElementById("hamburgerFA").className="fa-solid fa-x"
+
+  }
+  menuDown=!menuDown;
+}
+</script>
   </head>
 
   <body>
 
 <div id=wrapper>
-<p>   test 2</p>
+<div id=header>
+  <a id=logo href="index">
+<img src="wideLogo.png" alt="MSTV Wide Logo">
+</a>
+  <a class=lButton id=hamburger href="#" onclick="menu()"><i id="hamburgerFA" class="fa-solid fa-bars"></i></a>
+<div id=nav>
+
+  <a class=lButton href="schedule">Upcoming Broadcasts</a>
+  <a class=lButton href="on-demand">On Demand</a>
+  <a class=lButton href="advertise">Advertise With Us</a>
+  <a class=lButton href="about">About</a>
+  <div id=divider></div>
+  <a class=lButton href="https://rokfin.com/MetroSportsTV"><i class="fa-regular fa-circle-play"></i></a>
+  <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-twitter"></i></a>
+  <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-facebook"></i></a>
+
+
+
+</div>
+</div>
   </div>
 
   </body>

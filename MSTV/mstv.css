@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+#wrapper{
+  font-family: Roboto, sans-serif;
+}
+
+
+.lButton{
+  text-decoration: none;
+  color: #777;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+.lButton:hover{
+  color: #17478e;
+  background-color: #ddd;
+}
+
+/*Buttons: blue border, white background, gray text
+//Background turns blue on hover
+
+//light button: white background, gray text
+Background goes gray, text goes blue on hover
