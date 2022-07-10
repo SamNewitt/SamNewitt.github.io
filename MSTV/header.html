@@ -10,7 +10,7 @@
   <link rel=stylesheet href="mstv.css">
   <link rel=stylesheet href="header.css">
 <script src="https://kit.fontawesome.com/9ac7060263.js" crossorigin="anonymous"></script>
-
+<script src="header.js"></script>
 <style>
 body{
   background-color: #000;
@@ -18,19 +18,7 @@ body{
 </style>
 
 <script>
-var menuDown = false;
-function menu(){
-  if(menuDown){
-  document.getElementById("header").style.maxHeight="50px";
-  document.getElementById("hamburgerFA").className="fa-solid fa-bars"
-  }
-  else{
-    document.getElementById("header").style.maxHeight="300px";
-document.getElementById("hamburgerFA").className="fa-solid fa-x"
 
-  }
-  menuDown=!menuDown;
-}
 </script>
   </head>
 
@@ -39,10 +27,10 @@ document.getElementById("hamburgerFA").className="fa-solid fa-x"
 <div id=wrapper>
 <div id=header>
   <a id=logo href="index">
-<img src="wideLogo.png" alt="MSTV Wide Logo">
+<img src="logoWide.png" alt="MSTV Wide Logo">
 </a>
   <a class=lButton id=hamburger href="#" onclick="menu()"><i id="hamburgerFA" class="fa-solid fa-bars"></i></a>
-<div id=nav>
+<nav id=nav>
 
   <a class=lButton href="schedule">Upcoming Broadcasts</a>
   <a class=lButton href="on-demand">On Demand</a>
@@ -56,7 +44,7 @@ document.getElementById("hamburgerFA").className="fa-solid fa-x"
 
 
 
-</div>
+</nav>
 </div>
   </div>
 
