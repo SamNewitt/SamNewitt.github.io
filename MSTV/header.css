@@ -1,14 +1,25 @@
 #header{
   width: 100%;
   background-color: #fff;
+  position: fixed;
+  top:0;
+  z-index: 999;
+    border-bottom-style: solid;
+        border-color: #17478e;
+        border-width: 4px;
 }
 
 #logo{
   font-size: 0px;
 }
 
-  @media screen and (min-width: 1112px){
+  @media screen and (min-width: 1110px){
+#content{
+  margin-top: 100px;
+}
+
     #header{
+      max-height: 100px;
       height: 100px;
     }
     #header img{
@@ -27,16 +38,19 @@
       display: none;
     }
 
+
+
     #nav a{
       height: 100px;
       display: flex;
       align-items: center;
       padding-left: 15px;
       padding-right: 15px;
-      max-width: 150px;
+      max-width: 140px;
       text-align: center;
       font-size: 24px;
     }
+
 
 
     #socials{
@@ -44,15 +58,12 @@
       align-items: center;
       text-align: center;
       font-size: 24px;
-border-left-style: solid;
-    border-color: #17478e;
-    border-width: 4px;
     }
 
 
   }
 
-  @media screen and (max-width: 1111px){
+  @media screen and (max-width: 1109px){
     #header{
       max-height: 50px;
       overflow:hidden;
@@ -96,9 +107,6 @@ border-left-style: solid;
 #socials{
   display: flex;
   align-items: center;
-  border-top-style: solid;
-      border-color: #17478e;
-      border-width: 4px;
 }
 
   }
