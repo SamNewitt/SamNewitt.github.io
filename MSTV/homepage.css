@@ -33,17 +33,7 @@ color: #fff;
     cursor: pointer;
 }
 
-#school-logos{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #ccc;
-}
-.school{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 @media screen and (min-width: 1110px){
@@ -180,14 +170,6 @@ min-width:215px;
 text-align: center;
 }
 
-.school{
-  height:70px;
-  width:70px;
-}
 
-.school img{
-  max-width: 70px;
-  max-height: 70px;
-}
 
 }

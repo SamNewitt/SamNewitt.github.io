@@ -1,0 +1,91 @@
+#schools{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
+.school{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#schools-title{
+  transition: 0.125s ease;
+}
+
+#footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#follow{
+  text-align: center;
+}
+#follow-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#follow-links i{
+  color: #fff;
+}
+#copyright{
+  text-align: center;
+}
+
+#contact{
+  font-family: Roboto, sans-serif;
+}
+
+@media screen and (min-width: 1110px){
+  .school{
+    height:70px;
+    width:70px;
+  }
+
+  .school img{
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  #footer{
+    height: 80px;
+    border-top-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+  }
+
+  #footer p{
+    font-size: 20px;
+    margin:5px;
+  }
+
+  #footer i{
+    font-size: 36px;
+    padding:5px;
+  }
+
+  #follow-links{
+    height: 46px;
+    width:148px;
+  }
+
+  #follow-links i:hover{
+    font-size:40px;
+  }
+
+
+
+  #contact{
+    font-size: 24px;
+    display: flex;
+    height:68px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin-right:10px;
+    align-items: center;
+  }
+}
