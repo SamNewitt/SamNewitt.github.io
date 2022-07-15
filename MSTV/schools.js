@@ -9,7 +9,7 @@ var schools=[
 "Sioux Falls Lincoln (SD)",
 "Sioux City North (IA)",
 "O'Gorman (SD)",
-"Sioux County (IA)",
+"Sioux Center (IA)",
 "Sioux Falls Roosevelt (SD)",
 "Sergeant Bluff - Luton (IA)",
 "Sioux City West (IA)",
