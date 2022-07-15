@@ -74,6 +74,9 @@
   }
 
   @media screen and (max-width: 1109px){
+    #content{
+      margin-top: 50px;
+    }
     #header{
       max-height: 50px;
       overflow:hidden;
