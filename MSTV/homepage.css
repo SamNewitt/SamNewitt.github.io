@@ -4,6 +4,10 @@
   transition: background-image 0.5s;
 }
 
+.splash-text{
+  display:none;
+  transition: all 0.25s;
+}
 
 .splash-text h1{
 color: #fff;
@@ -29,6 +33,17 @@ color: #fff;
     cursor: pointer;
 }
 
+#school-logos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
+.school{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 @media screen and (min-width: 1110px){
@@ -47,7 +62,7 @@ border-right: 700px solid transparent;
 }
 
 .splash-text{
-  margin-top: -480px;
+  margin-top: -510px;
   padding-left: 15px;
   height: 500px;
 }
@@ -65,7 +80,6 @@ border-right: 700px solid transparent;
 .splash-text a{
   font-size:35px;
   padding:10px;
-  border-radius: 5px;
 }
 
 #dots{
@@ -81,4 +95,99 @@ border-right: 700px solid transparent;
 .dot:hover{
   background-color: #888;
 }
+.title{
+  font-size: 48px;
+  padding-top:10px;
+  padding-bottom:10px;
+
+  margin: 0;
+  width:100%;
+  background-color: #ccc;
+  color: #17478e;
+  text-align: center;
+}
+
+.blue{
+  color:#fff;
+  background-color: #17478e;
+}
+#watch{
+  width:100%;
+  display:flex;
+  background-color: #17478e;
+  color: #fff;
+}
+
+
+
+.watch-on{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:50%;
+}
+
+.watch-on img{
+height:150px;
+}
+
+
+
+.watch-on p{
+  color:#bbb;
+  font-size:24px;
+  margin:0;
+  text-align: center;
+}
+
+.watch-on a{
+  font-size: 40px;
+  padding-left:10px;
+  padding-right:10px;
+
+  margin: 20px;
+}
+
+.partner{
+  width:100%;
+  min-height: 100px;
+  display:grid;
+  grid-template-columns: 275px auto 275px;
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: #ddd;
+  border-width: 2px;
+}
+
+.partner img {
+
+  max-height: 100px;
+  max-width: 275px;
+  margin: auto;
+}
+
+.partner a{
+  font-size: 30px;
+   padding-left:10px;
+    padding-right:10px;
+    margin: 15px;
+    text-align: center;
+min-width:215px;
+}
+
+.partner p{
+  font-size:25px;
+text-align: center;
+}
+
+.school{
+  height:70px;
+  width:70px;
+}
+
+.school img{
+  max-width: 70px;
+  max-height: 70px;
+}
+
 }

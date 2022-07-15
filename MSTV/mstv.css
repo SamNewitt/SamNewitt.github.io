@@ -3,39 +3,59 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-/* .wf-loading body {
-visibility: hidden;
-} */
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   padding: 0;
   margin: 0;
 }
 
-h1{
+h1, a{
       font-family: Oswald, sans-serif;
 }
 
-a,p{
+p{
     font-family: Roboto, sans-serif;
 }
 
 
+.round.wButton{
+    border-radius: 10px;
+}
 
-.lButton{
+
+.wButton{
   text-decoration: none;
   color: #777;
   background-color: #fff;
   transition: 0.5s;
 }
 
-.lButton:hover{
+
+
+.wButton:hover{
   color: #17478e;
   background-color: #ddd;
 }
 
-/*Buttons: blue border, white background, gray text
-//Background turns blue on hover
+.bButton{
+  text-decoration: none;
+  color: #17478e;
+   box-shadow: inset 0 0 #17478e;
+   background-color: #fff;
+   transition:  .3s ease;
+   border-style: solid;
+   border-color: #17478e;
+   border-width: 6px;
+}
 
-//light button: white background, gray text
-Background goes gray, text goes blue on hover
+.round.bButton{
+    border-radius: 6px;
+}
+
+.bButton:hover{
+  color: #fff;
+  box-shadow: inset 0 -60px #17478e;
+}

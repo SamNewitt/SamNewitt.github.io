@@ -31,17 +31,17 @@
   <a id=logo href="index">
 <img src="logoWide.png" alt="MSTV Wide Logo">
 </a>
-  <a class=lButton id=hamburger href="#" onclick="menu()"><i id="hamburgerFA" class="fa-solid fa-bars"></i></a>
+  <a class=wButton id=hamburger href="#" onclick="menu()"><i id="hamburgerFA" class="fa-solid fa-bars"></i></a>
 <nav id=nav>
 
-  <a class=lButton href="schedule">Upcoming Broadcasts</a>
-  <a class=lButton href="on-demand">On Demand</a>
-  <a class=lButton href="advertise">Advertise With Us</a>
-  <a class=lButton href="about">About</a>
+  <a class=wButton href="schedule">Upcoming Broadcasts</a>
+  <a class=wButton href="on-demand">On Demand</a>
+  <a class=wButton href="advertise">Advertise With Us</a>
+  <a class=wButton href="about">About</a>
   <div id=socials>
-  <a class=lButton href="https://rokfin.com/MetroSportsTV"><i class="fa-regular fa-circle-play"></i></a>
-  <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-twitter"></i></a>
-  <a class=lButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-facebook"></i></a>
+  <a class=wButton href="https://rokfin.com/MetroSportsTV"><i class="fa-regular fa-circle-play"></i></a>
+  <a class=wButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-twitter"></i></a>
+  <a class=wButton href="https://twitter.com/metrosportstv"><i class="fa-brands fa-facebook"></i></a>
 </div>
 
 
@@ -55,25 +55,100 @@
 <div class=splash-text>
   <h1>LIVE AND UPCOMING BROADCASTS</h1>
   <p>Watch your favorite high school sports on a free webstream</p>
-  <a href="schedule" class=lButton>View Schedule</a>
+  <a href="schedule" class="round wButton">View Schedule</a>
+</div>
+<div class=splash-text>
+  <h1>WATCH GAMES ON DEMAND</h1>
+  <p>View the best high school matchups from across <br>Siouxland</p>
+  <a href="on-demand" class="round wButton">Past Games</a>
+</div>
+<div class=splash-text>
+  <h1>PARTNERSHIPS</h1>
+  <p>Metro Sports TV is proud to partner with these businesses <br>to carry our broadcasts</p>
+  <a href="#partners" class="round wButton">Learn More</a>
+</div>
+<div class=splash-text>
+  <h1>ADVERTISE WITH US</h1>
+  <p>Put your message in front of thousands of viewers across <br> the reigon</p>
+  <a href="advertise" class="round wButton">Package Details</a>
 </div>
 <div id=dots>
 <span class=dot onclick="goToSlide(0)"></span>
 <span class=dot onclick="goToSlide(1)"></span>
 <span class=dot onclick="goToSlide(2)"></span>
+<span class=dot onclick="goToSlide(3)"></span>
+
 
 </div>
     </div>
     <script src="rotator.js"></script>
+<h1 class=title>Watch Metro Sports TV Wherever You Are</h1>
+<div id=watch>
 
-    f
-    <br>
-    f
-    <br>  f
-      <br>  f
-        <br>  f
-          <br>  f
-            <br>
+  <div class=watch-on>
+    <img src="logos/rokfin.png" alt="ROKFIN">
+    <p id=partners>Stream our broadcasts on your <br>computer, tablet or phone with Rokfin</p>
+    <a  href="https://rokfin.com/MetroSportsTV" class="round wButton">Watch Now</a>
+  </div>
+  <div class=watch-on>
+    <img src="logos/roku.png" alt="ROKU">
+    <p>Watch Siouxland sports on the big screen<br> with our all new Roku TV app</p>
+    <a href="https://rokfin.com/MetroSportsTV" class="round wButton">Download Now</a>
+  </div>
+</div>
+<h1 class=title>Our Broadcasting Partners</h1>
+<div>
+  <div class=partner>
+
+      <img src="logos/dnn.png" alt="DAKOTA NEWS NOW">
+  <p>Beginning in the 2022-23 season, Dakota News Now will begin featuring all of our Sioux Falls Broadcasts on their Website</p>
+  <a href="https://www.dakotanewsnow.com/sports/scoreboard/" target="_blank" class="round bButton">Watch On DNN</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/premier.png" alt="PREMIER">
+  <p>Premier communications continues to carry the Northwest Iowa game of the week throughout the reigon on channel XXX</p>
+  <a href="https://www.mypremieronline.com/" target="_blank" class="round bButton">Watch On Premier</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/fox.png" alt="FOX">
+  <p>Select Sioux Falls Metro Football and Basketball games will be simulcasted on FOX Sports Radio KWSN (98.1)</p>
+  <a href="http://player.listenlive.co/29011" target="_blank" class="round bButton">Listen On KWSN</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/scr.png" alt="SIOUX COUNTY RADIO">
+  <p>IDK What the agreement is with Sioux County Radio...We'll have to ask Pat</p>
+  <a href="https://siouxcountyradio.com/on-air/939-ksou-programming" target="_blank" class="round bButton">Listen On KSOU</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/adrenaline.png" alt="Adrenaline">
+  <p>Metro Sports TV is proud to partner with Adrenaline Volleyball to bring you the Sioux Falls Volleyball Game of the Week</p>
+  <a href="https://www.vbadrenaline.com/" target="_blank" class="round bButton">Visit Adrenaline</a>
+  </div>
+</div>
+<h1 id="schools" class="blue title">Covering Your Favorite Siouxland Schools</h1>
+<div id="school-logos">
+  <div class=school onmouseover="school(1)" onmouseout="school(0)"><img src="schools/ws.png" ></div>
+  <div class=school onmouseover="school(2)" onmouseout="school(0)"><img src="schools/dv.png" ></div>
+  <div class=school onmouseover="school(3)" onmouseout="school(0)"><img src="schools/sce.png" ></div>
+  <div class=school onmouseover="school(4)" onmouseout="school(0)"><img src="schools/hhs.png" ></div>
+  <div class=school onmouseover="school(5)" onmouseout="school(0)"><img src="schools/hinton.png" ></div>
+  <div class=school onmouseover="school(6)" onmouseout="school(0)"><img src="schools/jhs.png" ></div>
+  <div class=school onmouseover="school(7)" onmouseout="school(0)"><img src="schools/lhs.png" ></div>
+  <div class=school onmouseover="school(8)" onmouseout="school(0)"><img src="schools/scn.png" ></div>
+  <div class=school onmouseover="school(9)" onmouseout="school(0)"><img src="schools/og.png" ></div>
+  <div class=school onmouseover="school(10)" onmouseout="school(0)"><img src="schools/sc.png" ></div>
+  <div class=school onmouseover="school(11)" onmouseout="school(0)"><img src="schools/rhs.png" ></div>
+  <div class=school onmouseover="school(12)" onmouseout="school(0)"><img src="schools/sbl.png" ></div>
+  <div class=school onmouseover="school(13)" onmouseout="school(0)"><img src="schools/scw.png" ></div>
+  <div class=school onmouseover="school(14)" onmouseout="school(0)"><img src="schools/whs.png" ></div>
+  <div class=school onmouseover="school(15)" onmouseout="school(0)"><img src="schools/ciml.png" ></div>
+  <script src="schools.js"></script>
+
+</div>
 </div>
   </div>
 
