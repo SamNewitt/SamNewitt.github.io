@@ -45,7 +45,7 @@ setTimeout(function () {
   pages[param].style.opacity="1";
 },275)
 
-//timer=setTimeout(rotate, 7000);
+timer=setTimeout(rotate, 7000);
 }
 
 
