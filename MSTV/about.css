@@ -35,6 +35,7 @@
 @media screen and (min-width: 700px){
   #story{
     font-size:30px;
+    width:75%;
   }
 
 
@@ -148,7 +149,8 @@
 
 @media screen and (max-width: 699px){
   #story{
-    font-size:18px;
+    font-size:15px;
+    width: 90%;
   }
 
 
