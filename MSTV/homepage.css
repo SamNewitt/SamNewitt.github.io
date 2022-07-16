@@ -33,9 +33,7 @@ color: #fff;
     cursor: pointer;
 }
 
-@media screen and (min-width: 1000px){
 
-}
 
 
 
@@ -88,17 +86,6 @@ border-right: 700px solid transparent;
 
 .dot:hover{
   background-color: #888;
-}
-.title{
-  font-size: 48px;
-  padding-top:10px;
-  padding-bottom:10px;
-
-  margin: 0;
-  width:100%;
-  background-color: #ccc;
-  color: #17478e;
-  text-align: center;
 }
 
 
@@ -269,17 +256,7 @@ border-right: 80vw solid transparent;
     background-color: #888;
   }
 
-  .title{
-    font-size: 22px;
-    padding-top:30px;
-    padding-bottom:30px;
 
-    margin: 0;
-    width:100%;
-    background-color: #ccc;
-    color: #17478e;
-    text-align: center;
-  }
   #watch{
     display: flex;
     flex-direction: column;
