@@ -25,7 +25,7 @@ bioContainer.style.opacity="1";
 
 
 setTimeout(function(){
-  peopleContainer.style.height="85vh";
+  peopleContainer.style.height="90vh";
 },500);
   }
 }
