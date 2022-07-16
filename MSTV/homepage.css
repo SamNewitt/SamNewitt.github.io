@@ -33,10 +33,14 @@ color: #fff;
     cursor: pointer;
 }
 
+.blue{
+  color:#fff;
+  background-color: #17478e;
+}
 
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 730px){
 
 #rotator{
   width: 100%;
@@ -98,10 +102,7 @@ border-right: 700px solid transparent;
   text-align: center;
 }
 
-.blue{
-  color:#fff;
-  background-color: #17478e;
-}
+
 #watch{
   width:100%;
   display:flex;
@@ -173,24 +174,7 @@ text-align: center;
 
 
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -198,7 +182,7 @@ text-align: center;
   display:none;
 }
 
-@media screen and (max-width: 699px){
+@media screen and (max-width: 729px){
 
 #rotator{
   height: 200px;
@@ -252,4 +236,66 @@ border-right: 80vw solid transparent;
   .dot:hover{
     background-color: #888;
   }
+
+  .title{
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+    margin: 0;
+    width:100%;
+    background-color: #ccc;
+    color: #17478e;
+    text-align: center;
+  }
+  #watch{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #17478e;
+    color: #fff;
+  }
+
+
+
+  .watch-on{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 30px;
+    margin:5px;
+  }
+
+  #rokfin p{
+    grid-row: 1/3;
+    grid-column: 2/4;
+  }
+
+  #roku p{
+    grid-row: 1/3;
+    grid-column: 1/3;
+  }
+
+  .watch-on img{
+  width:90%;
+  margin:auto;
+  }
+
+
+
+  .watch-on p{
+    color:#bbb;
+    width:100%;
+    font-size:20px;
+    text-align: center;
+    margin:auto;
+  }
+
+  .watch-on a{
+    font-size: 20px;
+  width:90%;
+  text-align: center;
+  margin:auto;
+
+  }
+
 }
