@@ -33,9 +33,8 @@ color: #fff;
     cursor: pointer;
 }
 
-.blue{
-  color:#fff;
-  background-color: #17478e;
+@media screen and (min-width: 1000px){
+
 }
 
 
@@ -177,10 +176,43 @@ text-align: center;
 }
 
 
+@media screen and (max-width: 850px){
 
-#hide{
-  display:none;
+    .partner{
+      margin: 10px;
+
+      min-height: 100px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 65px auto;
+      border-bottom-style: solid;
+      border-color: #ddd;
+      border-width: 2px;
+    }
+
+    .partner img {
+      max-width:90%;
+      margin:auto;
+      max-height: 95%;
+    }
+
+    .partner a{
+      font-size: 20px;
+       padding-left:10px;
+        padding-right:10px;
+        margin: auto;
+        text-align: center;
+    min-width:100px;
+    }
+
+    .partner p{
+      font-size:15px;
+    text-align: center;
+    grid-row: 2/3;
+    grid-column:1/3;
+    }
 }
+
 
 @media screen and (max-width: 729px){
 
@@ -222,14 +254,14 @@ border-right: 80vw solid transparent;
   padding:5px;
 }
 #dots{
-  height:40px;
+  height:25px;
   top:-60px;
 
 }
 
   .dot{
-    height: 30px;
-    width:30px;
+    height: 15px;
+    width:15px;
       margin:10px;
   }
 
@@ -239,8 +271,8 @@ border-right: 80vw solid transparent;
 
   .title{
     font-size: 22px;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top:30px;
+    padding-bottom:30px;
 
     margin: 0;
     width:100%;
@@ -260,24 +292,31 @@ border-right: 80vw solid transparent;
 
   .watch-on{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60px 30px;
-    margin:5px;
+    margin: 15px 5px 15px 5px;
+  }
+
+  #rokfin{
+  grid-template-columns: 2fr 3fr;
+  }
+
+  #roku{
+    grid-template-columns: 3fr 2fr;
   }
 
   #rokfin p{
     grid-row: 1/3;
-    grid-column: 2/4;
+    grid-column: 2/3;
   }
 
   #roku p{
     grid-row: 1/3;
-    grid-column: 1/3;
+    grid-column: 1/2;
   }
 
   .watch-on img{
-  width:90%;
+  max-width:90%;
   margin:auto;
+  max-height: 80%;
   }
 
 
@@ -297,5 +336,6 @@ border-right: 80vw solid transparent;
   margin:auto;
 
   }
+
 
 }

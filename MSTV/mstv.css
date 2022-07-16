@@ -20,6 +20,11 @@ p{
     font-family: Roboto, sans-serif;
 }
 
+.blue{
+  background-color: #17478e !important;
+  color:#fff !important;
+}
+
 
 .round.wButton{
     border-radius: 10px;
