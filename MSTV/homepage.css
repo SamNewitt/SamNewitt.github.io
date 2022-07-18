@@ -114,7 +114,8 @@ height:150px;
 .watch-on p{
   color:#bbb;
   font-size:24px;
-  margin:0;
+  width: 80%;
+  margin:0 auto 0 auto;
   text-align: center;
 }
 

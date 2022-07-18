@@ -2,7 +2,7 @@
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252">
     <meta http-equiv="cache-control" content="no-cache">
       <meta name=robots content="index, follow,">
     <meta name=author content="Sam Newitt">
@@ -11,18 +11,26 @@
     <title>Metro Sports TV | Covering your favorite Siouxland Sports</title>
     <link rel="icon" href="logoCropped.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="logoCropped.ico" type="image/png">
-  <link rel=stylesheet href="mstv.css?ver=12">
-  <link rel=stylesheet href="header.css?ver=12">
-  <link rel=stylesheet href="footer.css?ver=12">
-  <link rel=stylesheet href="homepage.css?ver=12">
+  <link rel=stylesheet href="mstv.css?ver=13">
+  <link rel=stylesheet href="header.css?ver=13">
+  <link rel=stylesheet href="footer.css?ver=13">
+  <link rel=stylesheet href="homepage.css?ver=13">
   <link rel="preload" href="images/1.jpg" as="image">
   <link rel="preload" href="images/2.jpg" as="image">
   <link rel="preload" href="images/3.jpg" as="image">
   <link rel="preload" href="images/4.jpg" as="image">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS3FLWXWEE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-PS3FLWXWEE');
+  </script>
 
 <script src="https://kit.fontawesome.com/9ac7060263.js" crossorigin="anonymous"></script>
-<script src="header.js?ver=12"></script>
+<script src="header.js?ver=13"></script>
 
   </head>
 
@@ -30,16 +38,16 @@
 
 <div id=wrapper>
 <div id=header>
-  <a id=logo href="index">
+  <a id=logo href="index.html">
 <img src="logoWide.png" alt="MSTV Wide Logo">
 </a>
   <a class=wButton id=hamburger href="javascript:void(0)" onclick="menu()"><i id="hamburgerFA" class="fa-solid fa-bars"></i></a>
 <nav id=nav>
 
-  <a class=wButton href="schedule">Upcoming Broadcasts</a>
-  <a class=wButton href="on-demand" target="_blank">On Demand</a>
-  <a class=wButton href="advertise">Advertise With Us</a>
-  <a class=wButton href="about">About</a>
+  <a class=wButton href="schedule.html">Upcoming Broadcasts</a>
+  <a class=wButton href="on-demand.html" target="_blank">On Demand</a>
+  <a class=wButton href="advertise.html">Advertise With Us</a>
+  <a class=wButton href="about.html">About</a>
   <div id=socials>
   <a class=wButton href="https://rokfin.com/MetroSportsTV" target="_blank"><i class="fa-regular fa-circle-play"></i></a>
   <a class=wButton href="https://twitter.com/metrosportstv" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -57,12 +65,12 @@
 <div class=splash-text>
   <h1>LIVE AND UPCOMING BROADCASTS</h1>
   <p>Watch your favorite high school sports on a free webstream</p>
-  <a href="schedule" class="round wButton">View Schedule</a>
+  <a href="schedule.html" class="round wButton">View Schedule</a>
 </div>
 <div class=splash-text>
   <h1>WATCH GAMES ON DEMAND</h1>
   <p>View the best high school matchups from across Siouxland</p>
-  <a href="on-demand" class="round wButton">Past Games</a>
+  <a href="on-demand.html" target="_blank" class="round wButton">Past Games</a>
 </div>
 <div class=splash-text>
   <h1>PARTNERSHIPS</h1>
@@ -72,7 +80,7 @@
 <div class=splash-text>
   <h1>ADVERTISE WITH US</h1>
   <p>Put your message in front of thousands of viewers across the reigon</p>
-  <a href="advertise" class="round wButton">Package Details</a>
+  <a href="advertise.html" class="round wButton">Package Details</a>
 </div>
 <div id=dots>
 <span class=dot onclick="goToSlide(0)"></span>
@@ -83,7 +91,7 @@
 
 </div>
     </div>
-    <script src="rotator.js?ver=12"></script>
+    <script src="rotator.js?ver=13"></script>
 <h1 class=title>Watch Metro Sports TV Wherever You Are</h1>
 <div id=watch>
 
@@ -94,8 +102,9 @@
   </div>
   <div id=roku class=watch-on>
     <img src="logos/roku.png" alt="ROKU">
-    <p>Watch Siouxland sports on the big screen with our all new Roku TV app</p>
-    <a id=partners href="roku" target="_blank" class="round wButton">Download Now</a>
+    <!-- <p>Watch Siouxland sports on the big screen with our all new Roku TV app</p> -->
+    <p>Beginning in the 2022-2023 season, Meto Sports TV will begin streaming our games on our Roku TV app. Stay tuned for further updates!</p>
+    <!-- <a id=partners href="roku" target="_blank" class="round wButton">Download Now</a> -->
   </div>
 </div>
 
@@ -108,7 +117,7 @@
 
       <img src="logos/dnn.png" alt="DAKOTA NEWS NOW">
   <p>Beginning in the 2022-23 season, Dakota News Now will begin featuring all of our Sioux Falls broadcasts on their website and app</p>
-  <a href="https://www.dakotanewsnow.com/sports/scoreboard/" target="_blank" class="round bButton">Watch On DNN</a>
+  <a href="https://www.dakotanewsnow.com/2022/07/18/dakota-news-now-partners-with-metro-sports-tv-livestream-high-school-sports/" target="_blank" class="round bButton">Read About It</a>
   </div>
   <div class=partner>
 
@@ -157,7 +166,7 @@
   <div class=school onmouseover="school(14)" onmouseout="school(0)"><img src="schools/og.png" ></div>
   <div class=school onmouseover="school(15)" onmouseout="school(0)"><img src="schools/rhs.png" ></div>
   <div class=school onmouseover="school(16)" onmouseout="school(0)"><img src="schools/whs.png" ></div>
-  <script src="schools.js?ver=12"></script>
+  <script src="schools.js?ver=13"></script>
 
 </div>
 </div>
@@ -182,7 +191,7 @@
   <i class="fa-solid fa-football"></i>
   <i class="fa-solid fa-volleyball"></i>
 </div>
-    <p>© 2022 Metro Sports Media</p>
+    <p>&copy 2022 Metro Sports Media</p>
   </div>
   <a id=contact class="round wButton" href="mailto:pat@watchmetrosportsmedia.com">Contact Us</a>
 </div>
