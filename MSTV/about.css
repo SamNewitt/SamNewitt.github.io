@@ -103,14 +103,11 @@
     grid-template-rows: 390px 390px 390px ;
   }
 
-  .person p{
-    min-height: 60px;
-  }
 
   .person{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 15px;
   }
@@ -149,9 +146,6 @@
     grid-template-rows: 390px 390px 390px 390px 390px ;
   }
 
-  .person p{
-    min-height:60px;
-  }
 }
 
 
@@ -225,13 +219,12 @@
     display:grid;
     overflow:hidden;
     grid-template-columns:  150px 150px;
-    grid-template-rows: 250px 250px 250px 250px 250px;
+    grid-template-rows: 270px 270px 270px 270px 270px;
   }
 
   .person{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 10px;
   }
