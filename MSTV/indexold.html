@@ -2,19 +2,33 @@
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1252">
     <meta http-equiv="cache-control" content="no-cache">
-      <meta name=robots content="none"> CHANGE THIS
+      <meta name=robots content="index, follow,">
     <meta name=author content="Sam Newitt">
   <meta name=viewport content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Metro Sports TV: Your home for the best coverage of highschool sports in Sioux Falls, Sioux City, and Northwest Iowa" />
-  <title>Schedule | Metro Sports TV</title>
+    <title>Metro Sports TV | Covering your favorite Siouxland Sports</title>
     <link rel="icon" href="logoCropped.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="logoCropped.ico" type="image/png">
   <link rel=stylesheet href="mstv.css?ver=16">
   <link rel=stylesheet href="header.css?ver=16">
   <link rel=stylesheet href="footer.css?ver=16">
-  <link rel=stylesheet href="STYLE.css?ver=16">
+  <link rel=stylesheet href="homepage.css?ver=16">
+  <link rel="preload" href="images/1.jpg" as="image">
+  <link rel="preload" href="images/2v3.jpg" as="image">
+  <link rel="preload" href="images/3.jpg" as="image">
+  <link rel="preload" href="images/4v2.jpg" as="image">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PS3FLWXWEE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PS3FLWXWEE');
+  </script>
+
 <script src="https://kit.fontawesome.com/9ac7060263.js" crossorigin="anonymous"></script>
 <script src="header.js?ver=16"></script>
 
@@ -45,7 +59,91 @@
 </nav>
 </div>
 <div id=content>
+  <div id=rotator>
+<div id=triangle>
+</div>
+<div class=splash-text>
+  <h1>LIVE AND UPCOMING BROADCASTS</h1>
+  <p>Watch your favorite high school sports on a free webstream</p>
+  <a href="schedule.html" class="round wButton">View Schedule</a>
+</div>
+<div class=splash-text>
+  <h1>WATCH GAMES ON DEMAND</h1>
+  <p>View the best high school matchups from across Siouxland</p>
+  <a href="on-demand.html" target="_blank" class="round wButton">Past Games</a>
+</div>
+<div class=splash-text>
+  <h1>PARTNERSHIPS</h1>
+  <p>Metro Sports TV is proud to partner with these businesses to carry our broadcasts</p>
+  <a href="#partners" class="round wButton">Learn More</a>
+</div>
+<div class=splash-text>
+  <h1>ADVERTISE WITH US</h1>
+  <p>Put your message in front of thousands of viewers across the reigon</p>
+  <a href="advertise.html" class="round wButton">Package Details</a>
+</div>
+<div id=dots>
+<span class=dot onclick="goToSlide(0)"></span>
+<span class=dot onclick="goToSlide(1)"></span>
+<span class=dot onclick="goToSlide(2)"></span>
+<span class=dot onclick="goToSlide(3)"></span>
 
+
+</div>
+    </div>
+    <script src="rotator.js?ver=16"></script>
+<h1 class=title>Watch Metro Sports TV Wherever You Are</h1>
+<div id=watch>
+
+  <div id=rokfin class=watch-on>
+    <img src="logos/rokfin.png" alt="ROKFIN">
+    <p >Stream our broadcasts on your computer, tablet or phone with Rokfin</p>
+    <a  href="https://rokfin.com/MetroSportsTV" target="_blank" class="round wButton">Watch Now</a>
+  </div>
+  <div id=roku class=watch-on>
+    <img src="logos/roku.png" alt="ROKU">
+    <!-- <p>Watch Siouxland sports on the big screen with our all new Roku TV app</p> -->
+    <p id=partners>Beginning in the 2022-2023 season, Meto Sports TV will begin streaming our games on our Roku TV app. Stay tuned for further updates!</p>
+    <!-- <a id=partners href="roku" target="_blank" class="round wButton">Download Now</a> -->
+  </div>
+</div>
+
+<h1  class=title>Our Broadcasting Partners</h1>
+
+
+<div>
+
+  <div class=partner>
+
+      <img src="logos/dnn.png" alt="DAKOTA NEWS NOW">
+  <p>Dakota News Now will feature all of our Sioux Falls football, volleyball, and basketball broadcasts on their website and app</p>
+  <a href="https://www.dakotanewsnow.com/2022/07/18/dakota-news-now-partners-with-metro-sports-tv-livestream-high-school-sports/" target="_blank" class="round bButton">Read About It</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/premier.png" alt="PREMIER">
+  <p>Premier Communications continues to carry the Northwest Iowa game of the week on their reigonal cable network</p>
+  <a href="https://www.mypremieronline.com/" target="_blank" class="round bButton">Watch On Premier</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/fox.png" alt="FOX">
+  <p>Audio for Sioux Falls Metro Football and Basketball games will be simulcasted on FOX Sports Radio KWSN (98.1 FM and 1230 AM)</p>
+  <a href="http://player.listenlive.co/29011" target="_blank" class="round bButton">Listen On KWSN</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/scr.png" alt="SIOUX COUNTY RADIO">
+  <p>Sioux County Radio will carry the audio from selected broadcasts in the Northwest Iowa region for the 2022-23 season</p>
+  <a href="https://siouxcountyradio.com/on-air/939-ksou-programming" target="_blank" class="round bButton">Listen On KSOU</a>
+  </div>
+  <div class=partner>
+
+      <img src="logos/adrenaline.png" alt="Adrenaline">
+  <p>Metro Sports TV is proud to partner with Adrenaline Volleyball to bring you the Sioux Falls Volleyball Game of the Week</p>
+  <a href="https://www.vbadrenaline.com/" target="_blank" class="round bButton">Visit Adrenaline</a>
+  </div>
+</div>
 </div>
 <div id=sub-footer>
 <div class=blue>
@@ -72,6 +170,7 @@
 
 </div>
 </div>
+
 <div id=footer class=blue>
   <div id=sports-mobile>
   <i class="fa-solid fa-basketball"></i>
@@ -92,7 +191,7 @@
   <i class="fa-solid fa-football"></i>
   <i class="fa-solid fa-volleyball"></i>
 </div>
-    <p>© 2022 Metro Sports Media</p>
+    <p>&copy 2022 Metro Sports Media</p>
   </div>
   <a id=contact class="round wButton" href="mailto:pat@watchmetrosportsmedia.com">Contact Us</a>
 </div>
