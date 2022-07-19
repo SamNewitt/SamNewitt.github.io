@@ -1,6 +1,6 @@
 var pages=document.getElementsByClassName("splash-text");
 var dots=document.getElementsByClassName("dot");
-var images=["url(images/1.jpg)","url(images/2v3.jpg)","url(images/3.jpg)","url(images/4v2.jpg)"];
+var images=["url(images/1.jpg)","url(images/2v4.jpg)","url(images/3.jpg)","url(images/4v2.jpg)"];
 var rotator=document.getElementById("rotator");
 var index=0;
 var timer;

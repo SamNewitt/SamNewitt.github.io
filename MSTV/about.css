@@ -100,7 +100,11 @@
     display:grid;
     overflow:hidden;
     grid-template-columns:  350px 350px 350px ;
-    grid-template-rows: 350px 350px 350px ;
+    grid-template-rows: 390px 390px 390px ;
+  }
+
+  .person p{
+    min-height: 60px;
   }
 
   .person{
@@ -142,7 +146,11 @@
     display:grid;
     overflow:hidden;
     grid-template-columns:  350px 350px ;
-    grid-template-rows: 350px 350px 350px 350px 350px ;
+    grid-template-rows: 390px 390px 390px 390px 390px ;
+  }
+
+  .person p{
+    min-height:60px;
   }
 }
 
